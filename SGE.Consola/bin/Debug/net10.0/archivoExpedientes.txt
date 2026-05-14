@@ -1,0 +1,18 @@
+b50fa419-0083-43e3-94ee-83a581c60d4f
+CaratulaExpediente { Valor =  Prueba del expediente 1 }
+RecienIniciado
+13 may 2026 23:47:05
+13 may 2026 23:47:05
+f6ff1450-e019-4b2b-a78a-6d9a3c5b97cb
+1019cf59-f7bd-4e00-85dd-eea7708f68cc
+CaratulaExpediente { Valor =  Prueba del expediente 1 }
+RecienIniciado
+14 may 2026 00:37:54
+14 may 2026 00:37:54
+d5c42cf8-415e-4f72-88c2-0644259cffd6
+6b7e7914-45ea-423f-aff9-9e8e8deb7208
+CaratulaExpediente { Valor =  Prueba del expediente 2 }
+RecienIniciado
+14 may 2026 00:37:54
+14 may 2026 00:37:54
+d5c42cf8-415e-4f72-88c2-0644259cffd6

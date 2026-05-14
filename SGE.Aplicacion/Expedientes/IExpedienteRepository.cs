@@ -1,0 +1,15 @@
+using System;
+using SGE.Dominio.Expedientes;
+
+namespace SGE.Aplicacion.Expedientes;
+
+public interface IExpedienteRepository
+{
+    void Agregar(Expediente expediente);
+    Expediente? ObtenerPorId(Guid id);
+
+    void Modificar (Expediente expediente);
+    void Eliminar (Guid id);
+    public IEnumerable<Expediente> ObtenerTodos();
+
+}

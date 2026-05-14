@@ -3,11 +3,11 @@ using SGE.Dominio.Comun;
 
 namespace SGE.Dominio.Tramites;
 
-public record class Contenido
+public record class ContenidoTramite
 {
     public String _valor {get;}
 
-    public Contenido (String valor)
+    public ContenidoTramite (String valor)
     {
         if (String.IsNullOrWhiteSpace(valor))
         {

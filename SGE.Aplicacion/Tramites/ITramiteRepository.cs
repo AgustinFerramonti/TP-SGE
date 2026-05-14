@@ -1,0 +1,16 @@
+using System;
+using SGE.Dominio.Tramites;
+
+namespace SGE.Aplicacion;
+
+public interface ITramiteRepository 
+{
+    void Agregar (Tramite tramite);
+    Tramite? ObtenerPorId (Guid id);
+    void Modificar (Tramite tramite);
+    void Eliminar (Guid id);
+    void EliminarPorExpedienteId(Guid idExpediente);
+
+    IEnumerable<Tramite> ObtenerPorExpedienteId(Guid expedienteId);
+
+}

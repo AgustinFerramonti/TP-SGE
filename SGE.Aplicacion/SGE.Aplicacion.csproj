@@ -4,6 +4,12 @@
     <ProjectReference Include="..\SGE.Dominio\SGE.Dominio.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Autorizacion\" />
+    <Folder Include="Comun\" />
+    <Folder Include="Tramites\" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>

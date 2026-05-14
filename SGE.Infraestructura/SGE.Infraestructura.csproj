@@ -5,6 +5,12 @@
     <ProjectReference Include="..\SGE.Aplicacion\SGE.Aplicacion.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="AutorizacionProvisional\" />
+    <Folder Include="Expedientes\" />
+    <Folder Include="Tramites\" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>

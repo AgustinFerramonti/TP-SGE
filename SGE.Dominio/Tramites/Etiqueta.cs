@@ -1,6 +1,6 @@
 namespace SGE.Dominio.Tramites;
 
-public enum Etiqueta
+public enum EtiquetaTramite
 {
   EscritoPresentado,
   PaseAEstudio,

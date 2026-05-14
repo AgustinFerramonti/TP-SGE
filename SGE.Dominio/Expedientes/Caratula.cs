@@ -3,11 +3,11 @@ using SGE.Dominio.Comun;
 
 namespace SGE.Dominio.Expedientes;
 
-public record class Caratula
+public record class CaratulaExpediente
 {
     public String Valor {get;} 
 
-    public Caratula (String valor)
+    public CaratulaExpediente (String valor)
     {
         if (String.IsNullOrWhiteSpace(valor)) // VERIFICA QUE NO SEA NULL NI " " 
         {

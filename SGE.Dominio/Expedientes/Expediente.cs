@@ -1,25 +1,79 @@
 using System;
-using System.Data.Common;
-using System.Dynamic;
+using SGE.Dominio.Comun;
+using SGE.Dominio.Tramites;
 
 namespace SGE.Dominio.Expedientes;
 
 public class Expediente
 {
-    public Guid _Id {get; private set;}
-    public Caratula _caratula {get; private set;}
-    public DateTime _fechaCreacion {get;private set;}
-    public DateTime _fechaUltimaModificacion {get; private set;}
-    public Guid _usuarioUltimoCambio {get; private set;}
-    public Estado _estado {get; private set;}
+    public Guid Id {get; private set;}
+    public CaratulaExpediente Caratula {get; private set;}
+    public DateTime FechaCreacion {get;private set;}
+    public DateTime FechaUltimaModificacion {get; private set;}
+    public Guid UsuarioUltimoCambio {get; private set;}
+    public EstadoExpediente Estado {get; private set;}
 
-    public Expediente (Caratula caratula, Guid usuarioUltimoCambio)
+    private Expediente (Guid id, CaratulaExpediente caratula, DateTime fechaCreacion,DateTime fechaUltimaModificacion,Guid Usuario, EstadoExpediente estado)
     {
-        _Id = Guid.NewGuid();
-        _caratula = caratula;
-        _fechaCreacion = DateTime.Now;
-        _fechaUltimaModificacion = _fechaCreacion;
-        _usuarioUltimoCambio = usuarioUltimoCambio;
-        _estado = Estado.RecienIniciado;
+        if (id == Guid.Empty)
+        {
+            throw new DomainException("¡El id no puede estar vacio!");
+        }
+        if (fechaUltimaModificacion < fechaCreacion) 
+        {
+            throw new DomainException("¡La Fecha de modificacion no puede ser menor a la fecha de creacion!"); 
+        }
+
+        Caratula = caratula ?? throw new DomainException("¡La caratula no puede estar vacia!");
+        Id = id;
+        FechaCreacion = fechaCreacion;
+        FechaUltimaModificacion = fechaUltimaModificacion;
+        UsuarioUltimoCambio = Usuario;
+        Estado = estado;
+
+       
     }
+
+    public Expediente (CaratulaExpediente caratula, Guid Usuario) : this(Guid.NewGuid(),caratula,DateTime.Now,DateTime.Now,Usuario,EstadoExpediente.RecienIniciado)
+    {}
+    public static Expediente reconstruir (Guid id,CaratulaExpediente caratula, DateTime fechaCreacion, DateTime fechaUltimaModificacion, Guid Usuario, EstadoExpediente estado) 
+    {
+        return new Expediente(id,caratula,fechaCreacion,fechaUltimaModificacion,Usuario,estado);
+    }
+
+    public void ModificarCaratula (CaratulaExpediente caratulaNueva, Guid Usuario)
+    {
+        Caratula = caratulaNueva;
+        UsuarioUltimoCambio = Usuario;
+        FechaUltimaModificacion = DateTime.Now;
+    }
+    
+    public bool ActualizarEstado(EtiquetaTramite? ultimaEtiqueta, Guid Usuario)
+    {
+            EstadoExpediente estado_anterior = Estado; 
+            switch (ultimaEtiqueta)
+        {
+            case EtiquetaTramite.PaseAEstudio:  Estado = EstadoExpediente.ParaResolver; break;
+            case EtiquetaTramite.Resolucion: Estado = EstadoExpediente.ConResolucion; break;
+            case EtiquetaTramite.PaseAArchivo : Estado = EstadoExpediente.Finalizado; break;
+            case null: Estado = EstadoExpediente.RecienIniciado; break;
+            
+        }
+        if (Estado != estado_anterior)
+        {
+            UsuarioUltimoCambio = Usuario;
+            FechaUltimaModificacion = DateTime.Now;
+            return true;
+        }
+        return false;
+    }
+    
+    public void CambiarEstado (EstadoExpediente nuevoEstado, Guid IdUsuario)
+    {
+        Estado = nuevoEstado;
+        UsuarioUltimoCambio = IdUsuario;
+        FechaUltimaModificacion = DateTime.Now;
+    }
+
+    
 }

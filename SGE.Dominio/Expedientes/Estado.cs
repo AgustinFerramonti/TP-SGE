@@ -2,10 +2,10 @@ using System;
 
 namespace SGE.Dominio.Expedientes;
 
-public enum Estado
+public enum EstadoExpediente
 {
     RecienIniciado,
-    ParaResoler,
+    ParaResolver,
     ConResolucion,
     EnNotificacion,
     Finalizado
