@@ -51,11 +51,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ferra\\OneDrive\\Escritorio\\TP SGE\\Trabajo-DotNet\\SGE.Infraestructura\\SGE.Infraestructura.csproj",
+      "projectUniqueName": "C:\\Users\\ferra\\Desktop\\TP-SGE\\SGE.Infraestructura\\SGE.Infraestructura.csproj",
       "projectName": "SGE.Infraestructura",
-      "projectPath": "C:\\Users\\ferra\\OneDrive\\Escritorio\\TP SGE\\Trabajo-DotNet\\SGE.Infraestructura\\SGE.Infraestructura.csproj",
+      "projectPath": "C:\\Users\\ferra\\Desktop\\TP-SGE\\SGE.Infraestructura\\SGE.Infraestructura.csproj",
       "packagesPath": "C:\\Users\\ferra\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ferra\\OneDrive\\Escritorio\\TP SGE\\Trabajo-DotNet\\SGE.Infraestructura\\obj\\",
+      "outputPath": "C:\\Users\\ferra\\Desktop\\TP-SGE\\SGE.Infraestructura\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ferra\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -70,11 +70,11 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\ferra\\OneDrive\\Escritorio\\TP SGE\\Trabajo-DotNet\\SGE.Aplicacion\\SGE.Aplicacion.csproj": {
-              "projectPath": "C:\\Users\\ferra\\OneDrive\\Escritorio\\TP SGE\\Trabajo-DotNet\\SGE.Aplicacion\\SGE.Aplicacion.csproj"
+            "C:\\Users\\ferra\\Desktop\\TP-SGE\\SGE.Aplicacion\\SGE.Aplicacion.csproj": {
+              "projectPath": "C:\\Users\\ferra\\Desktop\\TP-SGE\\SGE.Aplicacion\\SGE.Aplicacion.csproj"
             },
-            "C:\\Users\\ferra\\OneDrive\\Escritorio\\TP SGE\\Trabajo-DotNet\\SGE.Dominio\\SGE.Dominio.csproj": {
-              "projectPath": "C:\\Users\\ferra\\OneDrive\\Escritorio\\TP SGE\\Trabajo-DotNet\\SGE.Dominio\\SGE.Dominio.csproj"
+            "C:\\Users\\ferra\\Desktop\\TP-SGE\\SGE.Dominio\\SGE.Dominio.csproj": {
+              "projectPath": "C:\\Users\\ferra\\Desktop\\TP-SGE\\SGE.Dominio\\SGE.Dominio.csproj"
             }
           }
         }
@@ -110,7 +110,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

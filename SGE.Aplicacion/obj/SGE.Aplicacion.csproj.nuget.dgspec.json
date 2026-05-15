@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ferra\\OneDrive\\Escritorio\\TP SGE\\Trabajo-DotNet\\SGE.Aplicacion\\SGE.Aplicacion.csproj": {}
+    "C:\\Users\\ferra\\Desktop\\TP-SGE\\SGE.Aplicacion\\SGE.Aplicacion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ferra\\OneDrive\\Escritorio\\TP SGE\\Trabajo-DotNet\\SGE.Aplicacion\\SGE.Aplicacion.csproj": {
+    "C:\\Users\\ferra\\Desktop\\TP-SGE\\SGE.Aplicacion\\SGE.Aplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ferra\\OneDrive\\Escritorio\\TP SGE\\Trabajo-DotNet\\SGE.Aplicacion\\SGE.Aplicacion.csproj",
+        "projectUniqueName": "C:\\Users\\ferra\\Desktop\\TP-SGE\\SGE.Aplicacion\\SGE.Aplicacion.csproj",
         "projectName": "SGE.Aplicacion",
-        "projectPath": "C:\\Users\\ferra\\OneDrive\\Escritorio\\TP SGE\\Trabajo-DotNet\\SGE.Aplicacion\\SGE.Aplicacion.csproj",
+        "projectPath": "C:\\Users\\ferra\\Desktop\\TP-SGE\\SGE.Aplicacion\\SGE.Aplicacion.csproj",
         "packagesPath": "C:\\Users\\ferra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ferra\\OneDrive\\Escritorio\\TP SGE\\Trabajo-DotNet\\SGE.Aplicacion\\obj\\",
+        "outputPath": "C:\\Users\\ferra\\Desktop\\TP-SGE\\SGE.Aplicacion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ferra\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\ferra\\OneDrive\\Escritorio\\TP SGE\\Trabajo-DotNet\\SGE.Dominio\\SGE.Dominio.csproj": {
-                "projectPath": "C:\\Users\\ferra\\OneDrive\\Escritorio\\TP SGE\\Trabajo-DotNet\\SGE.Dominio\\SGE.Dominio.csproj"
+              "C:\\Users\\ferra\\Desktop\\TP-SGE\\SGE.Dominio\\SGE.Dominio.csproj": {
+                "projectPath": "C:\\Users\\ferra\\Desktop\\TP-SGE\\SGE.Dominio\\SGE.Dominio.csproj"
               }
             }
           }
@@ -63,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -341,14 +341,14 @@
         }
       }
     },
-    "C:\\Users\\ferra\\OneDrive\\Escritorio\\TP SGE\\Trabajo-DotNet\\SGE.Dominio\\SGE.Dominio.csproj": {
+    "C:\\Users\\ferra\\Desktop\\TP-SGE\\SGE.Dominio\\SGE.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ferra\\OneDrive\\Escritorio\\TP SGE\\Trabajo-DotNet\\SGE.Dominio\\SGE.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\ferra\\Desktop\\TP-SGE\\SGE.Dominio\\SGE.Dominio.csproj",
         "projectName": "SGE.Dominio",
-        "projectPath": "C:\\Users\\ferra\\OneDrive\\Escritorio\\TP SGE\\Trabajo-DotNet\\SGE.Dominio\\SGE.Dominio.csproj",
+        "projectPath": "C:\\Users\\ferra\\Desktop\\TP-SGE\\SGE.Dominio\\SGE.Dominio.csproj",
         "packagesPath": "C:\\Users\\ferra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ferra\\OneDrive\\Escritorio\\TP SGE\\Trabajo-DotNet\\SGE.Dominio\\obj\\",
+        "outputPath": "C:\\Users\\ferra\\Desktop\\TP-SGE\\SGE.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ferra\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -396,7 +396,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

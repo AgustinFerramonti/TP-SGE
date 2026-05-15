@@ -1,18 +1,42 @@
-b50fa419-0083-43e3-94ee-83a581c60d4f
-CaratulaExpediente { Valor =  Prueba del expediente 1 }
+c2889726-6b96-47b0-a6bf-5f616be4d804
+ Prueba del expediente 1
+ParaResolver
+14/5/2026 13:33:32
+14/5/2026 13:33:32
+3d0182ef-1056-45f5-a525-3e3f4e18528a
+f070c208-e757-4912-9eb6-ecb47eded546
+ Prueba del expediente 2
 RecienIniciado
-13 may 2026 23:47:05
-13 may 2026 23:47:05
-f6ff1450-e019-4b2b-a78a-6d9a3c5b97cb
-1019cf59-f7bd-4e00-85dd-eea7708f68cc
-CaratulaExpediente { Valor =  Prueba del expediente 1 }
+14/5/2026 13:33:32
+14/5/2026 13:33:32
+3d0182ef-1056-45f5-a525-3e3f4e18528a
+124c6bb8-95ed-4615-b8db-de4fba364ed7
+ Prueba del expediente 1
+ParaResolver
+14/5/2026 14:39:01
+14/5/2026 14:39:01
+d649bafa-734d-4fd0-9a54-9f3a007157b6
+68d6f326-8e6c-429a-a5aa-4088c4a8747f
+ Prueba del expediente 2
 RecienIniciado
-14 may 2026 00:37:54
-14 may 2026 00:37:54
-d5c42cf8-415e-4f72-88c2-0644259cffd6
-6b7e7914-45ea-423f-aff9-9e8e8deb7208
-CaratulaExpediente { Valor =  Prueba del expediente 2 }
+14/5/2026 14:39:01
+14/5/2026 14:39:01
+d649bafa-734d-4fd0-9a54-9f3a007157b6
+a9e49b1e-c89e-4a91-bb0c-d1af0721f63a
+ Prueba del expediente 1
+ParaResolver
+14/5/2026 14:49:05
+14/5/2026 14:49:05
+d9a4c7a2-0ce7-4f35-adae-1bf8898899c9
+e3d8b534-0328-485f-8818-3b42f1573309
+ Prueba del expediente 2
 RecienIniciado
-14 may 2026 00:37:54
-14 may 2026 00:37:54
-d5c42cf8-415e-4f72-88c2-0644259cffd6
+14/5/2026 14:49:05
+14/5/2026 14:49:05
+d9a4c7a2-0ce7-4f35-adae-1bf8898899c9
+a7704f07-b0da-4a80-9dad-c165b3ff0e7b
+hola 
+RecienIniciado
+14/5/2026 14:49:05
+14/5/2026 14:49:05
+d9a4c7a2-0ce7-4f35-adae-1bf8898899c9

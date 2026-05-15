@@ -12,7 +12,7 @@ public class ExpedienteTxtRepository : IExpedienteRepository
     {
         using var sw = new StreamWriter(_archivo, true);
         sw.WriteLine(expediente.Id);
-        sw.WriteLine(expediente.Caratula);
+        sw.WriteLine(expediente.Caratula.Valor);
         sw.WriteLine(expediente.Estado);
         sw.WriteLine(expediente.FechaCreacion);
         sw.WriteLine(expediente.FechaUltimaModificacion);
@@ -32,19 +32,19 @@ public class ExpedienteTxtRepository : IExpedienteRepository
                 encontrado = true;
                 sw.WriteLine(expediente.Id);
                 sw.WriteLine(expediente.Caratula.Valor);
+                sw.WriteLine(expediente.Estado);
                 sw.WriteLine(expediente.FechaCreacion);
                 sw.WriteLine(expediente.FechaUltimaModificacion);
                 sw.WriteLine(expediente.UsuarioUltimoCambio);
-                sw.WriteLine(expediente.Estado);
             }
             else
             {
                 sw.WriteLine(e.Id);
                 sw.WriteLine(e.Caratula.Valor);
+                sw.WriteLine(e.Estado);
                 sw.WriteLine(e.FechaCreacion);
                 sw.WriteLine(e.FechaUltimaModificacion);
                 sw.WriteLine(e.UsuarioUltimoCambio);
-                sw.WriteLine(e.Estado);
             }
         }
         if (!encontrado)
